@@ -4,7 +4,7 @@
 - Stochastic Gradient Descent (SGD) classifier
 - Stratified sampling
 - ROC and AUC
-- Confusion Matrix
+- Confusion matrix
 
 This notebook is my learning journal following the book:
 Hands-On Machine Learning with
