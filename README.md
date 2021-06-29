@@ -1,4 +1,4 @@
-# SGD_Classifier_Classification_Binary
+# SGD_Classifier_Classification
 
 #### Content Includes:
 - Stochastic Gradient Descent (SGD) classifier
