@@ -1,5 +1,10 @@
 # SGD_Classifier_Classification_Binary
-This repo contains sample code for: Stochastic Gradient Descent (SGD) classifier, Stratified Sampling, ROC and AUC, and Confusion Matrix.
+
+#### Content Includes:
+- Stochastic Gradient Descent (SGD) classifier
+- Stratified sampling
+- ROC and AUC
+- Confusion Matrix
 
 This notebook is my learning journal following the book:
 Hands-On Machine Learning with
