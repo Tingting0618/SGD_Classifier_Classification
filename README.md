@@ -28,9 +28,9 @@ confusion_matrix(y_train_5, y_train_pred)
 **Random Forest**
 ```python
 from sklearn.model_selection import cross_val_predict
-y_probas_forest = cross_val_predict(forest_clf, X_train, y_train_5, cv=3,method="predict_proba")
+y_train_pred_rf = cross_val_predict(forest_clf, X_train, y_train_5, cv=3)
 from sklearn.metrics import confusion_matrix
-confusion_matrix(y_train_5, y_probas_forest)
+confusion_matrix(y_train_5, y_train_pred_rf)
 ```  
 - ROC and AUC
 
