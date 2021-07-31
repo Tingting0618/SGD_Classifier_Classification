@@ -12,8 +12,8 @@
 - Stratified Sampling
 - Confusion Matrix
 
-  `from sklearn.model_selection import cross_val_predict`
-  `y_train_pred = cross_val_predict(sgd_clf, X_train, y_train_5, cv=3)`
+  `from sklearn.model_selection import cross_val_predict
+  y_train_pred = cross_val_predict(sgd_clf, X_train, y_train_5, cv=3)`
 
 ![2021-07-31 15_35_39-Classification_Stochastic_Gradient_Descent_(SGD)_Classifier - Jupyter Notebook](https://user-images.githubusercontent.com/44503223/127751895-d0ae4948-8240-48c4-890b-be0cebbb86fd.png)
 
