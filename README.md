@@ -4,7 +4,7 @@
 - Stochastic Gradient Descent (SGD) Classifier
   - SGD handles very large datasets efficiently. This is in part because SGD deals with training instances independently. The SGDClassifier relies on randomness during training (hence the name “stochastic”).
 
-  ```
+  ```python
   from sklearn.linear_model import SGDClassifier
   sgd_clf = SGDClassifier(random_state=42)
   sgd_clf.fit(X_train, y_train_5)
@@ -14,7 +14,7 @@
 - Stratified Sampling
 - Confusion Matrix
 
-  ```
+  ```python
   from sklearn.model_selection import cross_val_predict
   y_train_pred = cross_val_predict(sgd_clf, X_train, y_train_5, cv=3)
   from sklearn.metrics import confusion_matrix
