@@ -17,6 +17,7 @@ forest_clf = RandomForestClassifier(random_state=42)
 ```
 
 - Confusion Matrix
+
 **SGD**
 ```python
 from sklearn.model_selection import cross_val_predict
