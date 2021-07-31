@@ -1,11 +1,11 @@
 # SGD and Random Forest Classifier
 
 #### Content Includes:
-- Stochastic Gradient Descent (SGD) classifier
-- Random Forest classifier
-- Stratified sampling
+- Stochastic Gradient Descent (SGD) Classifier
+- Random Forest Classifier
+- Stratified Sampling
 - ROC and AUC
-- Confusion matrix
+- Confusion Matrix
 
 ## Learn More
 
