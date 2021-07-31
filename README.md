@@ -4,8 +4,9 @@
 - Stochastic Gradient Descent (SGD) Classifier
 - Random Forest Classifier
 - Stratified Sampling
-- ROC and AUC
 - Confusion Matrix
+- ROC and AUC
+![ROC and AUC](https://user-images.githubusercontent.com/44503223/127751807-89ab27dc-01ef-4a5c-8f9a-f62b7bb1a40a.png)
 
 ## Learn More
 
