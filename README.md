@@ -38,6 +38,8 @@ confusion_matrix(y_train_5, y_train_pred_rf)
 ```  
 - ROC and AUC
 
+A high-precision classifier is not very useful if its recall is too low!
+
 ```python
 
 from sklearn.metrics import roc_curve
