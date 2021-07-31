@@ -4,16 +4,19 @@
 - Stochastic Gradient Descent (SGD) Classifier
   - SGD handles very large datasets efficiently. This is in part because SGD deals with training instances independently. The SGDClassifier relies on randomness during training (hence the name “stochastic”).
 
-  `from sklearn.linear_model import SGDClassifier`
-  `sgd_clf = SGDClassifier(random_state=42)`
-  `sgd_clf.fit(X_train, y_train_5)`
+  ```from sklearn.linear_model import SGDClassifier
+  sgd_clf = SGDClassifier(random_state=42)
+  sgd_clf.fit(X_train, y_train_5)```
   
 - Random Forest Classifier
 - Stratified Sampling
 - Confusion Matrix
 
-  `from sklearn.model_selection import cross_val_predict
-  y_train_pred = cross_val_predict(sgd_clf, X_train, y_train_5, cv=3)`
+  ```from sklearn.model_selection import cross_val_predict
+  y_train_pred = cross_val_predict(sgd_clf, X_train, y_train_5, cv=3)
+  
+  from sklearn.metrics import confusion_matrix
+  confusion_matrix(y_train_5, y_train_pred)```
 
 ![2021-07-31 15_35_39-Classification_Stochastic_Gradient_Descent_(SGD)_Classifier - Jupyter Notebook](https://user-images.githubusercontent.com/44503223/127751895-d0ae4948-8240-48c4-890b-be0cebbb86fd.png)
 
