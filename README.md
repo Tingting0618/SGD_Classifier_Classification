@@ -39,7 +39,7 @@
   
   Note: cross_val_predict() performs K-fold cross-validation, but instead of returning the evaluation scores, it returns the predictions made on each test fold. This means that we get a clean prediction for each instance in the training set (“clean” meaning that the prediction is made by a model that never saw the data during training).
 
-- ROC and AUC
+**- ROC and AUC**
 
   A high-precision classifier is not very useful if its recall is too low!
 
